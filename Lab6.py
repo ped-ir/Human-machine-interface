@@ -29,9 +29,9 @@ class CustomRectItem(QGraphicsRectItem):
             font = QFont("Arial", font_size)
             if 'https://www.qt.io/' in text:
                 font.setUnderline(True)
-            elif 'Селявін Дмитро Сергійович' in text:
+            elif 'Педь Ігор Русланович' in text:
                 font.setBold(True)
-            elif 'Солнце,ветер,река,песок,море' in text:
+            elif 'Lorem ipsum' in text:
                 font.setItalic(True)
             painter.setFont(font)
             painter.drawText(self.rect(), Qt.AlignCenter, text)
